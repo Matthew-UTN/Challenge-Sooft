@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import ar.edu.teclab.prueba.entity.Materia;
 
-@Repository
 public interface MateriaRepository extends JpaRepository<Materia, Long> {
 
 }
